@@ -7,7 +7,7 @@ var io = require('socket.io')(http);
 
 
 
-app.use(express.static(__dirname + '/../client'));
+app.use(express.static(__dirname + '/../dev'));
 
 
 io.on('connection', function(socket){
